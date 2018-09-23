@@ -9,6 +9,15 @@ p{
 	font-family: sans-serif;
 	color:maroon;
 }
+p.blueberry{
+	color: purple;
+}
+p.greentea{
+	color: green;
+}
+p.raspberry{
+	color: blue;
+}
 em{
 	font-family:serif;
 }

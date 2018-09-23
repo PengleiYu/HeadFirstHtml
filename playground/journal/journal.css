@@ -9,7 +9,11 @@
 }
 body{
   font-family: Verdana, Geneva, Arial, sans-serif;
-  font-size:	large
+  font-size:	large;
+}
+h1,h2{
+  color:	#cc6600;
+  border-bottom:	thin dotted #888888;
 }
 h1{
   font-family:  sans-serif;

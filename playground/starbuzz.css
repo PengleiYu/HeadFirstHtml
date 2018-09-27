@@ -4,10 +4,19 @@ body {
 	font-size:        small;
 	margin:           0px;
 }
+div#drinks{
+	display:		table-cell;
+	background-color:	#efe5d0;
+	width:	20%;
+	padding:	15px;
+	vertical-align:	top;
+}
+
 div#tableContainer{
 	display:		table;
 	border-spacing:	10px;
 }
+
 div#tableRow{
 	display:		table-row;
 }

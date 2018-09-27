@@ -4,6 +4,22 @@ body {
 	font-size:        small;
 	margin:           0px;
 }
+
+#headerLogo{
+	float:	left;
+}
+
+#headerSlogan{
+	float:	right;
+}
+
+#award{
+/*	position:	absolute;
+	top:		30px;
+	left:		365px;
+	*/
+}
+
 div#drinks{
 	display:		table-cell;
 	background-color:	#efe5d0;
@@ -25,6 +41,7 @@ div#tableRow{
 	background-color: #675c47;
 	margin:           10px,10px,0px,10px;
 	height:           108px;
+	text-align:			center;
 }
 
 #main {

@@ -93,9 +93,8 @@ a:visited {
 }
 
 #coupon{
-	position:	fixed;
-	top:		350px;
-	left:		-90px;
+	position: 		absolute;
+	margin-left:	-110px;
 }
 #coupon a,img{
 	border:		none;

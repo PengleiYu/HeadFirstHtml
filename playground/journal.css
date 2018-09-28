@@ -37,6 +37,9 @@ td, th{
 th{
 	background-color:	#cc6600;
 }
+table table th{
+	background-color:	white;
+}
 caption{
 	font-style:		italic;
 	padding-top:	8px;
@@ -47,6 +50,6 @@ caption{
 .horiRight{
 	text-align:		right;
 }
-tr:nth-child(2n+1){
+tr:nth-child(3), tr:nth-child(5),tr:nth-child(8){
 	background-color:	#fcba7a;
 }

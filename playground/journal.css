@@ -37,6 +37,20 @@ td, th{
 th{
 	background-color:	#cc6600;
 }
+
+ul li{
+	/* list-style-image:	url(images/backpack.gif); */
+	list-style-type:	upper-alpha;
+	padding-top:		5px;
+	margin-left:		20px;
+}
+ol li{
+	list-style-type:	square;
+	list-style-position:	inside;
+}
+
+
+
 table table th{
 	background-color:	white;
 }

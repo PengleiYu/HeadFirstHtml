@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hello</title>
+	<style>
+.p1:first-letter{
+	font-size:	3em;
+}
+.p1:first-line{
+	font-style:		italic:
+}
+em[width="300"]{
+	background-color:	red;
+}
+em[alt~="hello"]{
+	background-color:	blue;
+}
+h1+p{
+	background-color:	orange;
+}
+#box{
+	position:	absolute;
+	transition:		transform 2s;
+	top:		100px;
+	left:		100px;
+	width:		200px;
+	height:		200px;
+	background-color:	red;
+}
+#box:hover{
+	transform:	rotate(45deg);
+}
+	</style>
+</head>
+<body>
+	<p class="p1">
+		hello world!
+	</p>
+	<p class="p1">
+		what are you fucking?
+	</p>
+	<p>
+		<em width="300" alt="hello world">
+			Hello world!
+		</em>
+	</p>
+	<p>
+		<h1>H1H1H1H1</h1>
+		<h1>H1H1H1H1</h1>
+		<p>PPPPP</p>
+		<h1>H1H1H1H1</h1>
+		<p>PPPPP</p>
+	</p>
+	<div id="box"></div>
+
+</body>
+</html>

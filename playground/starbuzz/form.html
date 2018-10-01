@@ -22,6 +22,18 @@
 				<input type="radio" name="beantype" value="whole">Whole bean <br>
 				<input type="radio" name="beantype" value="ground" checked>Ground
 			</p>
+			<p>
+				Number of bags: <input type="number" name="bags" min="1" max="10">
+			</p>
+			<p>
+				Must arrive by date: <input type="date" name="date">
+			</p>
+
+			<p>
+				Extras:<br>
+				<input type="checkbox" name="extras[]" value="giftwrap">Gift wrap<br>
+				<input type="checkbox" name="extras[]" value="catalog" checked>Include catalog with order
+			</p>
 			<p>Ship to: <br>
 				Name: <input type="text" name="name"> <br>
 				Address: <input type="text" name="address"> <br>
@@ -29,6 +41,9 @@
 				State: <input type="text" name="state"> <br>
 				Zip: <input type="text" name="zip"> <br>
 				Phone: <input type="tel" name="phone"> <br>
+			</p>
+			<p>Customer Comments:<br>
+				<textarea id="" name="comments" cols="30" rows="10"></textarea>
 			</p>
 			<p>
 				<input type="submit" value="Order Now">

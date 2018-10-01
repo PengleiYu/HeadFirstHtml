@@ -3,40 +3,87 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Hello</title>
+		<style>
+.tabrow{
+	display:	table-row;
+}
+.tabrow div{
+	display:	table-cell;
+}
+		</style>
 	</head>
 	<body>
-		<p>
-			Hello<input type="text"><br>
-			<input type="submit"><br>
-			<input type="radio" name="hotOrCool" value="hot">hot<br>
-			<input type="radio" name="hotOrCool" value="cool">cool<br>
-			<input type="checkbox">Salt
-			<br>
-			<input type="checkbox">Pepper
-			<br>
-			<input type="checkbox">Garlic
-			<br>
-			<textarea id="hah" name="comments" cols="30" rows="10">Hello world</textarea>
-			<br>
-			<select id="select" name="characters">
-				<option value="">Buckaroo</option>
-				<option value="">Tommy</option>
-				<option value="">Penny</option>
-			</select>
-			<br>
-			<input type="number" min="0" max="5">
-			<br>
-			<input type="range" min="0" max="20" step="5">
-			<br>
-			<input type="color">
-			<br>
-			<input type="date">
-			<br>
-			<input type="email">
-			<br>
-			<input type="tel">
-			<br>
-			<input type="url">
-		</p>
+		<div class="tabrow">
+			<div>
+				Hello<input type="text"><br>
+				<input type="submit"><br>
+				<input type="radio" name="hotOrCool" value="hot">hot<br>
+				<input type="radio" name="hotOrCool" value="cool">cool<br>
+				<input type="checkbox">Salt
+				<br>
+				<input type="checkbox">Pepper
+				<br>
+				<input type="checkbox">Garlic
+				<br>
+				<textarea id="hah" name="comments" cols="30" rows="10">Hello world</textarea>
+				<br>
+				<select id="select" name="characters">
+					<option value="">Buckaroo</option>
+					<option value="">Tommy</option>
+					<option value="">Penny</option>
+				</select>
+				<br>
+				<input type="number" min="0" max="5">
+				<br>
+				<input type="range" min="0" max="20" step="5">
+				<br>
+				<input type="color">
+				<br>
+				<input type="date">
+				<br>
+				<input type="email">
+				<br>
+				<input type="tel">
+				<br>
+				<input type="url">
+			
+			</div>
+
+			<div>
+				<p>
+					<input type="radio" name="hotornot" value="hot" id="hot">
+					<lable for="hot">hot</lable>
+					<input type="radio" name="hotornot" value="not" id="not" checked>
+					<lable for="not">not</lable>
+				</p>
+
+				<p>
+					<label for="bags">bags</label>
+					<input type="number" id="bags" name="bags" min="1" max="10">
+				</p>
+				<p>
+					<fieldset>
+						<legend>Condiments</legend>
+						<input type="checkbox" name="spice" value="salt" checked>Salt<br>
+						<input type="checkbox" name="spice" value="pepper">Pepper<br>
+						<input type="checkbox" name="spice" value="garlic">Garlic
+					</fieldset>
+				</p>
+				<p>
+					<input type="password" name="secret" value="Hello">
+				</p>
+				<p>
+					<input type="file" name="doc">
+				</p>
+				<p>
+					<select id="select" name="selector" multiple>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+				</p>
+
+			</div>
+		</div>
 	</body>
 </html>
